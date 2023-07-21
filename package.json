@@ -1,0 +1,49 @@
+{
+  "name": "store",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.5",
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.0",
+    "fontawesome": "^5.6.3",
+    "mdb-react-ui-kit": "^6.1.0",
+    "openapi": "^1.0.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.9.0",
+    "react-redux": "^8.1.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.13.0",
+    "react-slick": "^0.29.0",
+    "react-spinners-components": "^2.0.4",
+    "redux": "^4.2.1",
+    "sass": "^1.63.4",
+    "scss": "^0.2.4",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9"
+  }
+}
